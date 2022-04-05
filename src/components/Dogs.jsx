@@ -1,11 +1,10 @@
 import './dogs.css';
 import { useEffect, useState } from 'react';
 import { HashRouter, useNavigate } from 'react-router-dom';
-import { render } from '@testing-library/react';
+import {useHistory} from "react-router-dom"
 
 
 const Dogs = ({setDog}) => {
-    const navigate = useNavigate;
    
 
     const [data, setData] = useState([]);
@@ -24,7 +23,7 @@ const Dogs = ({setDog}) => {
     
             return (
                 
-                <div key={dog.chipNumber} onClick={() => setDog(dog)}>
+                <div key={dog.chipNumber} onClick={() => setDog(dog)} >
 
                 <img src={dog.img} /> 
                 <h1 >{dog.name} </h1>

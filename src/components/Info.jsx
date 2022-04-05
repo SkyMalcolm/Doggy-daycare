@@ -4,3 +4,5 @@ const Info = ({activeDog}) => {
         <div>Hej {activeDog.name}</div>
     )
 }
+
+export default Info;
