@@ -1,7 +1,10 @@
 
 const Info = ({activeDog}) => {
     return(
-        <div>Hej {activeDog.name}</div>
+        <div>
+                <h1>{activeDog.name}</h1>
+                <img src={activeDog.img}/>
+        </div>
     )
 }
 
