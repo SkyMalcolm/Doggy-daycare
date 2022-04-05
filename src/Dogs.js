@@ -1,16 +1,15 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import Dogs from './components/Dogs';
+import Home from "./components/Home";
+import { useEffect } from "react";
 
-const DogsView = (props) => {
-    const navigate = useNavigate;
-
+const DogsView = () => {
     return (
         <div>
-            <Dogs/>
+          <Dogs/>  
         </div>
       )
 
 }
 
-export default Dogs;
+export default DogsView;

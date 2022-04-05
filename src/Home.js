@@ -1,20 +1,15 @@
 import './App.css';
 import Home from './components/Home';
-import React from 'react';
-import { useNavigate } from "react-router-dom";
+import Dogs from './Dogs';
+import {useEffect, useState} from "react";
 
-const HomeView = (props) => {
-    const navigate = useNavigate();
+const HomeView = () => {
 
-    return (
+      return (
         <div className="App">
-          
           <Home/>
-    
-    
-    
         </div>
-      );
+      )
     }
 
     export default HomeView;
