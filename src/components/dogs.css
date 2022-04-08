@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    overflow: hidden;
+    padding: 20px;
+    
+  }
+  
+  .container img {
+    float: left;
+    width:  400px;
+    height: auto;
+    
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
