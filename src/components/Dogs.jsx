@@ -4,7 +4,7 @@ import { HashRouter, Link, useNavigate } from 'react-router-dom';
 import {useHistory} from "react-router-dom"
 
 
-const Dogs = ({setDog}) => {
+const Dogs = ({setDog}) => {    
    
 
     const [data, setData] = useState([]);
@@ -21,16 +21,22 @@ const Dogs = ({setDog}) => {
 
     const mapping = data.map(dog => {
     
-            return (
-            
+     return (  
+        <div key={dog.chipNumber} onClick={() => setDog(dog)}> 
         <Link to={"/info"}>
-                <div key={dog.chipNumber} onClick={() => setDog(dog)} >
-
-                <img src={dog.img} /> 
-                <h1 >{dog.name} </h1>
+            <div className='container'>
+                <div className='image'>
+                <img src={dog.img}/>
                 </div>
-                
-                </Link>
+                <div className='text'>
+                <h3>Name: {dog.name}</h3>
+                <p>Sex: {dog.sex}</p>
+                <p>Breed: {dog.breed}</p>
+                <p>Age: {dog.age}</p>
+                </div>
+            </div>
+        </Link>
+        </div>
             )
         
         })
