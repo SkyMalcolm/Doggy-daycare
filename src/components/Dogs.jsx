@@ -42,8 +42,7 @@ const Dogs = ({setDog}) => {
         })
     
     return (
-        <div>
-        <h1>Here is our dogs!</h1>     
+        <div>     
         {mapping}
         </div>
     )
