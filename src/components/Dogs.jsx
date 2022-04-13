@@ -22,21 +22,15 @@ const Dogs = ({setDog}) => {
     const mapping = data.map(dog => {
     
      return (  
-        <div key={dog.chipNumber} onClick={() => setDog(dog)}> 
+
         <Link to={"/info"}>
-            <div className='container'>
-                <div className='image'>
+        <div key={dog.chipNumber} onClick={() => setDog(dog)}> 
+            <div className='dogs'>
                 <img src={dog.img}/>
-                </div>
-                <div className='text'>
-                <h3>Name: {dog.name}</h3>
-                <p>Sex: {dog.sex}</p>
-                <p>Breed: {dog.breed}</p>
-                <p>Age: {dog.age}</p>
-                </div>
+                <h3>{dog.name}</h3>
             </div>
-        </Link>
         </div>
+        </Link>
             )
         
         })

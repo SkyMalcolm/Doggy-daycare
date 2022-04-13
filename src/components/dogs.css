@@ -1,25 +1,24 @@
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 600px;
-    overflow: hidden;
-    padding: 20px;
-    
-  }
-  
-  .container img {
+body {
+    margin: 0;
+}
+
+.dogs {
     float: left;
-    width:  400px;
-    height: auto;
-    
-  }
+    width: 25%;
+}
+
+.dogs img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.dogs h3 {
+    margin-left: 150px;
+}
+
+
+
   
-  .image {
-    flex-basis: 40%
-  }
-  
-  .text {
-    font-size: 20px;
-    padding-left: 20px;
-  }
+
