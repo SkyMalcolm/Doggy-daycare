@@ -39,15 +39,14 @@ body {
 .showcase .button {
     font-size: 18px;
     text-decoration: none;
-    color:gray;
-    border:gray 1px solid ;
+    color:white;
+    border:white 1px solid ;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
 }
 
-.showcase .button:hover {
-    
+.showcase .button:hover { 
     color: rgb(5, 112, 201);
 }
 
@@ -58,39 +57,56 @@ body {
     padding-bottom: 40px;
     
 }
+.section-a h3 {
+    font-style: italic;
+}
 
 .section-b {
     background-image: url('../img/dogcare.jpg');
     background-size: cover;
-    height: 80vh;
-    width: 100vh;
-    margin-right: 50%;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
     
     
     
     
 }
-
-.section-b .second-image {
-    background-image: url('../img/shydog.jpg');
-    background-size: cover;
-    height: 80vh;
-    width: 100vh;
-    margin-left: 100%;
-    padding-left: 50px;
+.section-b h3 {
+    font-size: 50px;
+    line-height: 1.2;
+    color: white;
 }
-
 
 .section-c {
     display: flex;
     padding: 20px;
     padding-bottom: 20px; 
+    border: black, 2px;
+}
+
+.section-c div{
+    padding: 20px;
 }
 
 .section-c .box-1, .section-c .box-3 {
+    border-style: groove;
+    padding: 5px;
     
 }
 
 .section-c .box-2 {
-   
+   border-style: groove;
+   padding: 5px;
+}
+
+.contact p {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
 }

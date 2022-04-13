@@ -11,15 +11,11 @@ function App() {
   const [activeDog, setActiveDog] = useState(null);
 
   return (
-    
-    
-      
       <HashRouter>
-      
         { <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/dogs" element={<Dogs setDog={setActiveDog}/>}/>
-          <Route path="/info" element={<Info activeDog={activeDog}/>}/>
+          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/dogs" element={<Dogs setDog={setActiveDog}/>}/>
+          <Route exact path="/info" element={<Info activeDog={activeDog}/>}/>
         </Routes> }
       </HashRouter>
 
