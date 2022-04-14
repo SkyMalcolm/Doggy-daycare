@@ -10,6 +10,7 @@ const Home = () => {
             <h1>Welcome to FourPaws</h1>
             <h3>A safe place for your dog </h3>
             <Link to="/dogs" className='button'>Check out our dogs!</Link>
+            <Link to="" className='button'>Book an appointment</Link>
         </header>
         <section className='section-a'>
             <h3>We at FourPaws offer you the finest and most professional care of your best friend while you
@@ -20,7 +21,7 @@ const Home = () => {
         </section>
 
         <section className='section-b'>
-           <h3>Feel safe and comfortable knowing your dog is having a good time!
+           <h3>Feel safe and comfortable knowing your dog is having a good time.
                Let your dog stay in home environments with us!</h3>
         </section>
 
@@ -37,11 +38,6 @@ const Home = () => {
                 We always recommend that while your dog stays with us, we can have the pleasure of giving your dog a warm nice bath. You will no longer have hair in your drains and no more wrestling with an escaping dog!
             </div>
         </section>
-
-        <section className='contact'>
-            <p>Please contact us at 070-9999999 or fourpaws@fourspaws.se for consultation or booking!</p>
-        </section>
-
         </div>
     )
 }
