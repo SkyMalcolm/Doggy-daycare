@@ -20,7 +20,7 @@ const Home = () => {
         </section>
 
         <section className='section-b'>
-           <h3>Feel safe and comfortable knowing your dog is having a good time!
+           <h3>Feel safe and comfortable knowing your dog is having a good time.
                Let your dog stay in home environments with us!</h3>
         </section>
 

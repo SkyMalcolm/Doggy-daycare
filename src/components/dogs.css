@@ -5,13 +5,16 @@ body {
 .dogs {
     float: left;
     width: 25%;
+    padding: 10px;
+    
 }
 
 .dogs img {
     height: 300px;
     width: 300px;
-    padding: 10px;
-    margin-left: 10px;
+    margin-left: 45%
+    
+    
 }
 
 .dogs h3 {
