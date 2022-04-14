@@ -4,21 +4,23 @@ body {
 
 .dogs {
     float: left;
-    width: 25%;
+    margin-top: 50px;
     padding: 10px;
+    
     
 }
 
 .dogs img {
     height: 300px;
     width: 300px;
-    margin-left: 45%
+    margin-left: 50%
     
     
 }
 
 .dogs h3 {
-    margin-left: 150px;
+    margin-left: 290px;
+    color: black;
 }
 
 

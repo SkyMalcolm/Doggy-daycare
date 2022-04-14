@@ -87,7 +87,7 @@ body {
     display: flex;
     padding: 20px;
     padding-bottom: 20px; 
-    border: black, 2px;
+    
 }
 
 .section-c div{
@@ -96,13 +96,13 @@ body {
 
 .section-c .box-1, .section-c .box-3 {
     border-style: groove;
-    padding: 5px;
+    padding: 20px;
     
 }
 
 .section-c .box-2 {
    border-style: groove;
-   padding: 5px;
+   padding: 20px;
 }
 
 .contact p {

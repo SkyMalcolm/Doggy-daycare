@@ -1,4 +1,5 @@
 import './dogs.css';
+import dogpaw from '../img/dogpaw.png';
 import { useEffect, useState } from 'react';
 import { HashRouter, Link, useNavigate } from 'react-router-dom';
 import {useHistory} from "react-router-dom"
@@ -24,21 +25,29 @@ const Dogs = ({setDog}) => {
      return (  
 
         <Link to={"/info"}>
-        <div key={dog.chipNumber} onClick={() => setDog(dog)}> 
-            <div className='dogs'>
-                <img src={dog.img}/>
-                <h3>{dog.name}</h3>
+        <div className='dogs' key={dog.chipNumber} onClick={() => setDog(dog)}> 
+            <img src={dog.img}/>
+            <h3>{dog.name}</h3>
             </div>
-        </div>
         </Link>
+
             )
         
         })
     
     return (
-        <div>     
+        <div>
+        <div className='container'>
+            <div className='image'>
+                <img src={dogpaw}/>
+            </div>
+            <div className='text'>
+                <h3>FourPaws</h3>
+            </div>
+        </div>
         {mapping}
         </div>
+        
     )
 }
 
