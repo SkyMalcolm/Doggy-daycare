@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './confirmation.css';
 
 const Confirmation = () => {
