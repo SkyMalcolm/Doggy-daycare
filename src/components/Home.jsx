@@ -10,7 +10,7 @@ const Home = () => {
             <h1>Welcome to FourPaws</h1>
             <h3>A safe place for your dog </h3>
             <Link to="/dogs" className='button'>Check out our dogs!</Link>
-            <Link to="" className='button'>Book an appointment</Link>
+            <Link to="/booking" className='button'>Book an appointment</Link>
         </header>
         <section className='section-a'>
             <h3>We at FourPaws offer you the finest and most professional care of your best friend while you
