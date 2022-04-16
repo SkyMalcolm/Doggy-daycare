@@ -1,9 +1,7 @@
 import './home.css';
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Home = () => {
-    const navigate = useNavigate;
-
     return (
         <div className='main'>
         <header className='showcase'>
